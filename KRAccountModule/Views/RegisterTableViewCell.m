@@ -7,24 +7,23 @@
 //
 
 #import "RegisterTableViewCell.h"
-#import "CustomTextField.h"
-#import "JXLRPopTipView.h"
-#import "NSString+UserInfo.h"
+#import <KRCommonUIComponents/CustomTextField.h>
+#import <KRCommonUIComponents/JXLRPopTipView.h>
+#import <KRCommonComponents/NSString+UserInfo.h>
 #import "UserInfo.h"
 #import "RegNextViewController.h"
 #import "CountryCodeModel.h"
 #import "CountryCodeSelectView.h"
-#import "AlertViewHelper.h"
-#import "NSString+Shove.h"
+#import <KRCommonUIComponents/AlertViewHelper.h>
+#import <KRNetworkManager/NSString+Shove.h>
 #import <KRCommonComponents/Macros.h>
 #import <KRNetworkManager/KRRequestManager.h>
 #import "Masonry.h"
 #import <KRCommonComponents/ColorTools.h>
 #import <KRCommonComponents/DAConfig.h>
-#import "KRProgressHud.h"
-#import "AlertViewHelper.h"
-#import "KRUtils.h"
-#import "FontTools.h"
+#import <KRCommonUIComponents/KRProgressHud.h>
+#import <KRCommonComponents/KRUtils.h>
+#import <KRCommonComponents/FontTools.h>
 
 
 @interface RegisterTableViewCell()

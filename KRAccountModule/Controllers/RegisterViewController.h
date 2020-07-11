@@ -6,7 +6,7 @@
 //  Copyright © 2019 lai. All rights reserved.
 //
 
-#import "BasicViewController.h"
+#import <KRBaseComponents/BasicViewController.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

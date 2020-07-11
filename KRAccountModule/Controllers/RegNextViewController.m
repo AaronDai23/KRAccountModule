@@ -8,7 +8,7 @@
 
 #import "RegNextViewController.h"
 #import "RegNextTableViewCell.h"
-#import "ColorTools.h"
+#import <KRCommonComponents/ColorTools.h>
 #import "Masonry.h"
 
 #define CELL_ID         @"RegNextTableViewCell"

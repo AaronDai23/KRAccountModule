@@ -7,19 +7,19 @@
 //
 
 #import "RegNextTableViewCell.h"
-#import "CustomTextField.h"
-#import "JXLRPopTipView.h"
-#import "NSString+UserInfo.h"
+#import <KRCommonUIComponents/CustomTextField.h>
+#import <KRCommonUIComponents/JXLRPopTipView.h>
+#import <KRCommonComponents/NSString+UserInfo.h>
 #import "UserInfo.h"
-#import "Macros.h"
-#import "ColorTools.h"
-#import "KRProgressHud.h"
-#import "NSString+encryptDES.h"
-#import "KRNetworkConfig.h"
-#import "DAConfig.h"
-#import "KRRequestManager.h"
-#import "AppDefaultUtil.h"
-#import "KRNotificationConstant.h"
+#import <KRCommonComponents/Macros.h>
+#import <KRCommonComponents/ColorTools.h>
+#import <KRCommonUIComponents/KRProgressHud.h>
+#import <KRNetworkManager/NSString+encryptDES.h>
+#import <KRNetworkManager/KRNetworkConfig.h>
+#import <KRCommonComponents/DAConfig.h>
+#import <KRNetworkManager/KRRequestManager.h>
+#import <KRCommonComponents/AppDefaultUtil.h>
+#import <KRCommonComponents/KRNotificationConstant.h>
 
 #define RegNextTableViewCellLeftSpace 20
 #define RegNextTableViewCellWidth (MSWIDTH-40)

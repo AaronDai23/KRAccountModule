@@ -7,10 +7,11 @@
 //
 
 #import "LoginViewController.h"
+#import <KRBaseComponents/BasicViewController.h>
 #import "LoginTableViewCell.h"
-#import "Macros.h"
-#import "KRNotificationConstant.h"
-#import "ColorTools.h"
+#import <KRCommonComponents/Macros.h>
+#import <KRCommonComponents/KRNotificationConstant.h>
+#import <KRCommonComponents/ColorTools.h>
 #import "Masonry.h"
 //#import "TabViewController.h"
 //#import "KRFindViewController.h"

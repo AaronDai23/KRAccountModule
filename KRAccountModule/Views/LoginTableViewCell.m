@@ -7,24 +7,24 @@
 //
 
 #import "LoginTableViewCell.h"
-#import "ColorTools.h"
-#import "LoginWindowTextField.h"
-#import "CustomTextField.h"
-#import "JXLRPopTipView.h"
+#import <KRCommonComponents/ColorTools.h>
+#import <KRCommonUIComponents/LoginWindowTextField.h>
+#import <KRCommonUIComponents/CustomTextField.h>
+#import <KRCommonUIComponents/JXLRPopTipView.h>
 #import "RegisterViewController.h"
-#import "AppDefaultUtil.h"
-#import "Macros.h"
+#import <KRCommonComponents/AppDefaultUtil.h>
+#import <KRCommonComponents/Macros.h>
 //#import ""
 //#import "TabViewController.h"
 //#import "KRFindViewController.h"
-#import "KRNetworkConfig.h"
-#import "DAConfig.h"
-#import "KRRequestManager.h"
-#import "NSString+encryptDES.h"
+#import <KRNetworkManager/KRNetworkConfig.h>
+#import <KRCommonComponents/DAConfig.h>
+#import <KRNetworkManager/KRRequestManager.h>
+#import <KRNetworkManager/NSString+encryptDES.h>
 #import "UserInfo.h"
-#import "KRProgressHud.h"
-#import "KRNotificationConstant.h"
-#import "QCheckBox.h"
+#import <KRCommonUIComponents/KRProgressHud.h>
+#import <KRCommonComponents/KRNotificationConstant.h>
+#import <KRCommonUIComponents/QCheckBox.h>
 
 #define loginTableViewCellWidthWind  MSWIDTH - 40
 
