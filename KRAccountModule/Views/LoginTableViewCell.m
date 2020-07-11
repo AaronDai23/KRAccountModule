@@ -213,6 +213,9 @@
 - (void)regItemClick
 {
     [self hideEnterKeyboard];
+    if (self.registerBlock) {
+        self.registerBlock();
+    }
 }
 
 #pragma mark - 点击登录
