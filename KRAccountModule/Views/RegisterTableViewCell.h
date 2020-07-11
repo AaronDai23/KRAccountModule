@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 手机号框
 @property (nonatomic, strong) CustomTextField *phoneWindow;
 @property (nonatomic, strong) CustomTextField *verifyWindow;
-@property(nonatomic ,weak) UIViewController *deleagate;
+@property (nonatomic, copy) void(^nextBlock)(NSDictionary *dict);
 @end
 
 NS_ASSUME_NONNULL_END

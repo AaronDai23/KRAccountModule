@@ -11,7 +11,6 @@
 #import <KRCommonUIComponents/JXLRPopTipView.h>
 #import <KRCommonComponents/NSString+UserInfo.h>
 #import "UserInfo.h"
-#import "RegNextViewController.h"
 #import "CountryCodeModel.h"
 #import "CountryCodeSelectView.h"
 #import <KRCommonUIComponents/AlertViewHelper.h>
@@ -235,18 +234,6 @@
                    self.inviteCodeStatus = [dics [@"inviteCodeStatus"] intValue];
                    return;
                }
-               UserInfo *usermodel = [[UserInfo alloc] init];
-               usermodel.userName = _phoneWindow.text;
-               usermodel.cellPhone = [NSString stringWithFormat:@"%@%@", self.selectModel.code, _phoneWindow.text];
-//               AppDelegateInstance.userInfo = usermodel;
-               
-               RegNextViewController *vc = [[RegNextViewController alloc] init];
-               vc.phone = [NSString stringWithFormat:@"%@%@", self.selectModel.code, _phoneWindow.text];
-               vc.name = _phoneWindow.text;
-               vc.verifyCode = _verifyWindow.text;
-               vc.inviteCodeStatus = [dics [@"inviteCodeStatus"] intValue];
-               [self.deleagate.navigationController pushViewController:vc animated:YES];
-               
            }else {
                DLOG(@"返回失败  msg -> %@",[dics objectForKey:@"msg"]);
                
@@ -427,14 +414,15 @@
                    usermodel.userName = _phoneWindow.text;
                    usermodel.cellPhone = [NSString stringWithFormat:@"%@%@", self.selectModel.code, _phoneWindow.text];
     //               AppDelegateInstance.userInfo = usermodel;
-                   
-                   RegNextViewController *vc = [[RegNextViewController alloc] init];
-                   vc.phone = [NSString stringWithFormat:@"%@%@", self.selectModel.code, _phoneWindow.text];
-                   vc.name = _phoneWindow.text;
-                   vc.verifyCode = _verifyWindow.text;
-                   vc.inviteCodeStatus = [dics [@"inviteCodeStatus"] intValue];
-                   [self.deleagate.navigationController pushViewController:vc animated:YES];
-                   
+                NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
+                
+                dict[@"phone"] = [NSString stringWithFormat:@"%@%@", self.selectModel.code, _phoneWindow.text];
+                dict[@"name"] = _phoneWindow.text;
+                dict[@"verifyCode"] = _verifyWindow.text;
+                dict[@"inviteCodeStatus"] = dics [@"inviteCodeStatus"];
+                   if (self.nextBlock) {
+                       self.nextBlock(dict);
+                   }
                }else {
                    DLOG(@"返回失败  msg -> %@",[dics objectForKey:@"msg"]);
                    

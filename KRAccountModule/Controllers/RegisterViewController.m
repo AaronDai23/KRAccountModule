@@ -8,7 +8,10 @@
 
 #import "RegisterViewController.h"
 #import "RegisterTableViewCell.h"
-#import "ColorTools.h"
+#import <KRCommonComponents/ColorTools.h>
+#import <KRCommonComponents/Macros.h>
+#import "RegNextViewController.h"
+
 #import "Masonry.h"
 
 #define CELL_ID         @"RegisterTableViewCell"
@@ -127,7 +130,16 @@
 {
     RegisterTableViewCell *cell  = [_tableView dequeueReusableCellWithIdentifier:CELL_ID];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.deleagate = self;
+    KRWeakSelf(self);
+    cell.nextBlock = ^(NSDictionary * _Nonnull dict) {
+        KRStrongSelf(self);
+        RegNextViewController *vc = [[RegNextViewController alloc] init];
+        vc.phone = dict[@"phone"];
+        vc.name = dict[@"name"];
+        vc.verifyCode = dict[@"verifyCode"];
+        vc.inviteCodeStatus = [dict [@"inviteCodeStatus"] intValue];
+        [self.navigationController pushViewController:vc animated:YES];
+    };
     return cell;
 }
 
