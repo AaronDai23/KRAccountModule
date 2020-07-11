@@ -616,6 +616,7 @@
 			baseConfigurationReference = 78B977400B9D5C17EADE7FA5 /* Pods-KRAccountModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KRAccountModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -634,6 +635,7 @@
 			baseConfigurationReference = B72AEF3A8A9AEDA76E7F0DB6 /* Pods-KRAccountModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KRAccountModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
