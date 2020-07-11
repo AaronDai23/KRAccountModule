@@ -1,0 +1,98 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - KRBaseComponents (1.0.1):
+    - KRBaseComponents/Controllers (= 1.0.1)
+    - KRBaseComponents/Models (= 1.0.1)
+    - KRBaseComponents/Views (= 1.0.1)
+  - KRBaseComponents/Controllers (1.0.1):
+    - KRCommonComponents (~> 1.0.3)
+    - Masonry (~> 1.1.0)
+    - MJRefresh (~> 3.1.15.7)
+    - SVProgressHUD (~> 2.1.2)
+  - KRBaseComponents/Models (1.0.1)
+  - KRBaseComponents/Views (1.0.1):
+    - Masonry (~> 1.1.0)
+    - MJRefresh (~> 3.1.15.7)
+    - SVProgressHUD (~> 2.1.2)
+  - KRCommonComponents (1.0.4):
+    - KRCommonComponents/Categories (= 1.0.4)
+    - KRCommonComponents/Config (= 1.0.4)
+    - KRCommonComponents/Utilites (= 1.0.4)
+  - KRCommonComponents/Categories (1.0.4):
+    - AFNetworking (~> 3.2.1)
+    - KRCommonComponents/Utilites
+  - KRCommonComponents/Config (1.0.4)
+  - KRCommonComponents/Utilites (1.0.4)
+  - KRCommonUIComponents (1.0.1):
+    - KRCommonUIComponents/Draw (= 1.0.1)
+    - KRCommonUIComponents/Hud (= 1.0.1)
+    - KRCommonUIComponents/KRAlertView (= 1.0.1)
+    - KRCommonUIComponents/QCheckbox (= 1.0.1)
+  - KRCommonUIComponents/Draw (1.0.1):
+    - KRCommonComponents (~> 1.0.4)
+    - Masonry (= 1.1.0)
+  - KRCommonUIComponents/Hud (1.0.1):
+    - SVProgressHUD (~> 2.1.2)
+  - KRCommonUIComponents/KRAlertView (1.0.1):
+    - KRCommonComponents (~> 1.0.4)
+    - Masonry (= 1.1.0)
+  - KRCommonUIComponents/QCheckbox (1.0.1)
+  - KRNetworkManager (1.0.3):
+    - KRNetworkManager/Network (= 1.0.3)
+    - KRNetworkManager/Shove.OC (= 1.0.3)
+  - KRNetworkManager/Network (1.0.3):
+    - AFNetworking (~> 3.2.1)
+    - KRNetworkManager/Shove.OC
+  - KRNetworkManager/Shove.OC (1.0.3)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.1)
+  - KRBaseComponents (~> 1.0.1)
+  - KRCommonComponents (~> 1.0.4)
+  - KRCommonUIComponents (~> 1.0.1)
+  - KRNetworkManager (~> 1.0.3)
+  - Masonry (= 1.1.0)
+  - MJRefresh (= 3.1.15.7)
+  - SVProgressHUD (= 2.1.2)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - KRBaseComponents
+    - KRCommonComponents
+    - KRCommonUIComponents
+    - KRNetworkManager
+    - Masonry
+    - MJRefresh
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  KRBaseComponents: 70dcc57a171fbdb53b10f548595e154358e47317
+  KRCommonComponents: 44b0b4bfb0c86e29586ae27be76a5c4e7d7b5e6a
+  KRCommonUIComponents: 50cbdf0e34cf653d899317a757c8f3c9c157e4e6
+  KRNetworkManager: e2a79531d9b20940ff69b2c3ebf2a8ff2fba25ee
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 1f17f21183d90f194a631972a0d4393c37ff207e
+
+COCOAPODS: 1.9.2

@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071A5C9724AA531400644010 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5C9624AA531400644010 /* AppDelegate.m */; };
+		071A5C9A24AA531400644010 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5C9924AA531400644010 /* SceneDelegate.m */; };
+		071A5C9D24AA531400644010 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5C9C24AA531400644010 /* ViewController.m */; };
+		071A5CA024AA531400644010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071A5C9E24AA531400644010 /* Main.storyboard */; };
+		071A5CA224AA531600644010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071A5CA124AA531600644010 /* Assets.xcassets */; };
+		071A5CA524AA531600644010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071A5CA324AA531600644010 /* LaunchScreen.storyboard */; };
+		071A5CA824AA531600644010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CA724AA531600644010 /* main.m */; };
+		071A5CB224AA531600644010 /* KRAccountModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CB124AA531600644010 /* KRAccountModuleTests.m */; };
+		071A5CBD24AA531600644010 /* KRAccountModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CBC24AA531600644010 /* KRAccountModuleUITests.m */; };
+		071A5CD324AA536500644010 /* CountryCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CCD24AA536500644010 /* CountryCodeModel.m */; };
+		071A5CD424AA536500644010 /* UpdataAppResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CCE24AA536500644010 /* UpdataAppResult.m */; };
+		071A5CD524AA536500644010 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CD024AA536500644010 /* UserInfo.m */; };
+		071A5CDC24AA539D00644010 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CD724AA539D00644010 /* RegisterViewController.m */; };
+		071A5CDD24AA539D00644010 /* RegNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CD824AA539D00644010 /* RegNextViewController.m */; };
+		071A5CDE24AA539D00644010 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CD924AA539D00644010 /* LoginViewController.m */; };
+		071A5CEA24AA53A900644010 /* CountryCodeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CDF24AA53A900644010 /* CountryCodeSelectView.m */; };
+		071A5CEB24AA53A900644010 /* CountryCodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071A5CE024AA53A900644010 /* CountryCodeTableViewCell.xib */; };
+		071A5CEC24AA53A900644010 /* RegisterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CE124AA53A900644010 /* RegisterTableViewCell.m */; };
+		071A5CED24AA53A900644010 /* CountryCodeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CE424AA53A900644010 /* CountryCodeTableViewCell.m */; };
+		071A5CEE24AA53A900644010 /* LoginTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CE724AA53A900644010 /* LoginTableViewCell.m */; };
+		071A5CEF24AA53A900644010 /* RegNextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5CE924AA53A900644010 /* RegNextTableViewCell.m */; };
+		071A5DC524B7684F00644010 /* Target_Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5DC424B7684F00644010 /* Target_Login.m */; };
+		EEA648B87DAE43C5C6B324B7 /* Pods_KRAccountModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306F9A7E9A526D12F522E735 /* Pods_KRAccountModule.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		071A5CAE24AA531600644010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 071A5C8A24AA531400644010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 071A5C9124AA531400644010;
+			remoteInfo = KRAccountModule;
+		};
+		071A5CB924AA531600644010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 071A5C8A24AA531400644010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 071A5C9124AA531400644010;
+			remoteInfo = KRAccountModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071A5C9224AA531400644010 /* KRAccountModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRAccountModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		071A5C9524AA531400644010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		071A5C9624AA531400644010 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		071A5C9824AA531400644010 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		071A5C9924AA531400644010 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		071A5C9B24AA531400644010 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		071A5C9C24AA531400644010 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		071A5C9F24AA531400644010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		071A5CA124AA531600644010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		071A5CA424AA531600644010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		071A5CA624AA531600644010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071A5CA724AA531600644010 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		071A5CAD24AA531600644010 /* KRAccountModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRAccountModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		071A5CB124AA531600644010 /* KRAccountModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRAccountModuleTests.m; sourceTree = "<group>"; };
+		071A5CB324AA531600644010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071A5CB824AA531600644010 /* KRAccountModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRAccountModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		071A5CBC24AA531600644010 /* KRAccountModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRAccountModuleUITests.m; sourceTree = "<group>"; };
+		071A5CBE24AA531600644010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071A5CCD24AA536500644010 /* CountryCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCodeModel.m; sourceTree = "<group>"; };
+		071A5CCE24AA536500644010 /* UpdataAppResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdataAppResult.m; sourceTree = "<group>"; };
+		071A5CCF24AA536500644010 /* UpdataAppResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdataAppResult.h; sourceTree = "<group>"; };
+		071A5CD024AA536500644010 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		071A5CD124AA536500644010 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		071A5CD224AA536500644010 /* CountryCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCodeModel.h; sourceTree = "<group>"; };
+		071A5CD624AA539D00644010 /* RegNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegNextViewController.h; sourceTree = "<group>"; };
+		071A5CD724AA539D00644010 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		071A5CD824AA539D00644010 /* RegNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegNextViewController.m; sourceTree = "<group>"; };
+		071A5CD924AA539D00644010 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		071A5CDA24AA539D00644010 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		071A5CDB24AA539D00644010 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		071A5CDF24AA53A900644010 /* CountryCodeSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCodeSelectView.m; sourceTree = "<group>"; };
+		071A5CE024AA53A900644010 /* CountryCodeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryCodeTableViewCell.xib; sourceTree = "<group>"; };
+		071A5CE124AA53A900644010 /* RegisterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterTableViewCell.m; sourceTree = "<group>"; };
+		071A5CE224AA53A900644010 /* LoginTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTableViewCell.h; sourceTree = "<group>"; };
+		071A5CE324AA53A900644010 /* CountryCodeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCodeTableViewCell.h; sourceTree = "<group>"; };
+		071A5CE424AA53A900644010 /* CountryCodeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCodeTableViewCell.m; sourceTree = "<group>"; };
+		071A5CE524AA53A900644010 /* RegisterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterTableViewCell.h; sourceTree = "<group>"; };
+		071A5CE624AA53A900644010 /* CountryCodeSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCodeSelectView.h; sourceTree = "<group>"; };
+		071A5CE724AA53A900644010 /* LoginTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTableViewCell.m; sourceTree = "<group>"; };
+		071A5CE824AA53A900644010 /* RegNextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegNextTableViewCell.h; sourceTree = "<group>"; };
+		071A5CE924AA53A900644010 /* RegNextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegNextTableViewCell.m; sourceTree = "<group>"; };
+		071A5DC324B7684F00644010 /* Target_Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Login.h; sourceTree = "<group>"; };
+		071A5DC424B7684F00644010 /* Target_Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Login.m; sourceTree = "<group>"; };
+		306F9A7E9A526D12F522E735 /* Pods_KRAccountModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRAccountModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B977400B9D5C17EADE7FA5 /* Pods-KRAccountModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRAccountModule.debug.xcconfig"; path = "Target Support Files/Pods-KRAccountModule/Pods-KRAccountModule.debug.xcconfig"; sourceTree = "<group>"; };
+		B72AEF3A8A9AEDA76E7F0DB6 /* Pods-KRAccountModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRAccountModule.release.xcconfig"; path = "Target Support Files/Pods-KRAccountModule/Pods-KRAccountModule.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		071A5C8F24AA531400644010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA648B87DAE43C5C6B324B7 /* Pods_KRAccountModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071A5CAA24AA531600644010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071A5CB524AA531600644010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071A5C8924AA531400644010 = {
+			isa = PBXGroup;
+			children = (
+				071A5C9424AA531400644010 /* KRAccountModule */,
+				071A5CB024AA531600644010 /* KRAccountModuleTests */,
+				071A5CBB24AA531600644010 /* KRAccountModuleUITests */,
+				071A5C9324AA531400644010 /* Products */,
+				16F2828EEFC77096BD5BCD86 /* Pods */,
+				D445D00A650B0BE126957D46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		071A5C9324AA531400644010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071A5C9224AA531400644010 /* KRAccountModule.app */,
+				071A5CAD24AA531600644010 /* KRAccountModuleTests.xctest */,
+				071A5CB824AA531600644010 /* KRAccountModuleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		071A5C9424AA531400644010 /* KRAccountModule */ = {
+			isa = PBXGroup;
+			children = (
+				071A5DC224B7667D00644010 /* Targets */,
+				071A5CCC24AA534100644010 /* Controllers */,
+				071A5CCB24AA533800644010 /* Views */,
+				071A5CCA24AA533000644010 /* Models */,
+				071A5C9524AA531400644010 /* AppDelegate.h */,
+				071A5C9624AA531400644010 /* AppDelegate.m */,
+				071A5C9824AA531400644010 /* SceneDelegate.h */,
+				071A5C9924AA531400644010 /* SceneDelegate.m */,
+				071A5C9B24AA531400644010 /* ViewController.h */,
+				071A5C9C24AA531400644010 /* ViewController.m */,
+				071A5C9E24AA531400644010 /* Main.storyboard */,
+				071A5CA124AA531600644010 /* Assets.xcassets */,
+				071A5CA324AA531600644010 /* LaunchScreen.storyboard */,
+				071A5CA624AA531600644010 /* Info.plist */,
+				071A5CA724AA531600644010 /* main.m */,
+			);
+			path = KRAccountModule;
+			sourceTree = "<group>";
+		};
+		071A5CB024AA531600644010 /* KRAccountModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				071A5CB124AA531600644010 /* KRAccountModuleTests.m */,
+				071A5CB324AA531600644010 /* Info.plist */,
+			);
+			path = KRAccountModuleTests;
+			sourceTree = "<group>";
+		};
+		071A5CBB24AA531600644010 /* KRAccountModuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				071A5CBC24AA531600644010 /* KRAccountModuleUITests.m */,
+				071A5CBE24AA531600644010 /* Info.plist */,
+			);
+			path = KRAccountModuleUITests;
+			sourceTree = "<group>";
+		};
+		071A5CCA24AA533000644010 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				071A5CD224AA536500644010 /* CountryCodeModel.h */,
+				071A5CCD24AA536500644010 /* CountryCodeModel.m */,
+				071A5CCF24AA536500644010 /* UpdataAppResult.h */,
+				071A5CCE24AA536500644010 /* UpdataAppResult.m */,
+				071A5CD124AA536500644010 /* UserInfo.h */,
+				071A5CD024AA536500644010 /* UserInfo.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		071A5CCB24AA533800644010 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				071A5CE624AA53A900644010 /* CountryCodeSelectView.h */,
+				071A5CDF24AA53A900644010 /* CountryCodeSelectView.m */,
+				071A5CE324AA53A900644010 /* CountryCodeTableViewCell.h */,
+				071A5CE424AA53A900644010 /* CountryCodeTableViewCell.m */,
+				071A5CE024AA53A900644010 /* CountryCodeTableViewCell.xib */,
+				071A5CE224AA53A900644010 /* LoginTableViewCell.h */,
+				071A5CE724AA53A900644010 /* LoginTableViewCell.m */,
+				071A5CE524AA53A900644010 /* RegisterTableViewCell.h */,
+				071A5CE124AA53A900644010 /* RegisterTableViewCell.m */,
+				071A5CE824AA53A900644010 /* RegNextTableViewCell.h */,
+				071A5CE924AA53A900644010 /* RegNextTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		071A5CCC24AA534100644010 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				071A5CDB24AA539D00644010 /* LoginViewController.h */,
+				071A5CD924AA539D00644010 /* LoginViewController.m */,
+				071A5CDA24AA539D00644010 /* RegisterViewController.h */,
+				071A5CD724AA539D00644010 /* RegisterViewController.m */,
+				071A5CD624AA539D00644010 /* RegNextViewController.h */,
+				071A5CD824AA539D00644010 /* RegNextViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		071A5DC224B7667D00644010 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				071A5DC324B7684F00644010 /* Target_Login.h */,
+				071A5DC424B7684F00644010 /* Target_Login.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		16F2828EEFC77096BD5BCD86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78B977400B9D5C17EADE7FA5 /* Pods-KRAccountModule.debug.xcconfig */,
+				B72AEF3A8A9AEDA76E7F0DB6 /* Pods-KRAccountModule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D445D00A650B0BE126957D46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				306F9A7E9A526D12F522E735 /* Pods_KRAccountModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		071A5C9124AA531400644010 /* KRAccountModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071A5CC124AA531600644010 /* Build configuration list for PBXNativeTarget "KRAccountModule" */;
+			buildPhases = (
+				5CB34716D2168836E5EC1412 /* [CP] Check Pods Manifest.lock */,
+				071A5C8E24AA531400644010 /* Sources */,
+				071A5C8F24AA531400644010 /* Frameworks */,
+				071A5C9024AA531400644010 /* Resources */,
+				33C76F1AB7D252954FE9EEFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRAccountModule;
+			productName = KRAccountModule;
+			productReference = 071A5C9224AA531400644010 /* KRAccountModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		071A5CAC24AA531600644010 /* KRAccountModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071A5CC424AA531600644010 /* Build configuration list for PBXNativeTarget "KRAccountModuleTests" */;
+			buildPhases = (
+				071A5CA924AA531600644010 /* Sources */,
+				071A5CAA24AA531600644010 /* Frameworks */,
+				071A5CAB24AA531600644010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				071A5CAF24AA531600644010 /* PBXTargetDependency */,
+			);
+			name = KRAccountModuleTests;
+			productName = KRAccountModuleTests;
+			productReference = 071A5CAD24AA531600644010 /* KRAccountModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		071A5CB724AA531600644010 /* KRAccountModuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071A5CC724AA531600644010 /* Build configuration list for PBXNativeTarget "KRAccountModuleUITests" */;
+			buildPhases = (
+				071A5CB424AA531600644010 /* Sources */,
+				071A5CB524AA531600644010 /* Frameworks */,
+				071A5CB624AA531600644010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				071A5CBA24AA531600644010 /* PBXTargetDependency */,
+			);
+			name = KRAccountModuleUITests;
+			productName = KRAccountModuleUITests;
+			productReference = 071A5CB824AA531600644010 /* KRAccountModuleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		071A5C8A24AA531400644010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "戴培琼";
+				TargetAttributes = {
+					071A5C9124AA531400644010 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					071A5CAC24AA531600644010 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 071A5C9124AA531400644010;
+					};
+					071A5CB724AA531600644010 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 071A5C9124AA531400644010;
+					};
+				};
+			};
+			buildConfigurationList = 071A5C8D24AA531400644010 /* Build configuration list for PBXProject "KRAccountModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 071A5C8924AA531400644010;
+			productRefGroup = 071A5C9324AA531400644010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				071A5C9124AA531400644010 /* KRAccountModule */,
+				071A5CAC24AA531600644010 /* KRAccountModuleTests */,
+				071A5CB724AA531600644010 /* KRAccountModuleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		071A5C9024AA531400644010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071A5CA524AA531600644010 /* LaunchScreen.storyboard in Resources */,
+				071A5CA224AA531600644010 /* Assets.xcassets in Resources */,
+				071A5CA024AA531400644010 /* Main.storyboard in Resources */,
+				071A5CEB24AA53A900644010 /* CountryCodeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071A5CAB24AA531600644010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071A5CB624AA531600644010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33C76F1AB7D252954FE9EEFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KRAccountModule/Pods-KRAccountModule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KRAccountModule/Pods-KRAccountModule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KRAccountModule/Pods-KRAccountModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CB34716D2168836E5EC1412 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KRAccountModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071A5C8E24AA531400644010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071A5CEA24AA53A900644010 /* CountryCodeSelectView.m in Sources */,
+				071A5CDD24AA539D00644010 /* RegNextViewController.m in Sources */,
+				071A5C9D24AA531400644010 /* ViewController.m in Sources */,
+				071A5CD324AA536500644010 /* CountryCodeModel.m in Sources */,
+				071A5C9724AA531400644010 /* AppDelegate.m in Sources */,
+				071A5CDE24AA539D00644010 /* LoginViewController.m in Sources */,
+				071A5CD424AA536500644010 /* UpdataAppResult.m in Sources */,
+				071A5CEE24AA53A900644010 /* LoginTableViewCell.m in Sources */,
+				071A5DC524B7684F00644010 /* Target_Login.m in Sources */,
+				071A5CED24AA53A900644010 /* CountryCodeTableViewCell.m in Sources */,
+				071A5CA824AA531600644010 /* main.m in Sources */,
+				071A5C9A24AA531400644010 /* SceneDelegate.m in Sources */,
+				071A5CD524AA536500644010 /* UserInfo.m in Sources */,
+				071A5CEC24AA53A900644010 /* RegisterTableViewCell.m in Sources */,
+				071A5CEF24AA53A900644010 /* RegNextTableViewCell.m in Sources */,
+				071A5CDC24AA539D00644010 /* RegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071A5CA924AA531600644010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071A5CB224AA531600644010 /* KRAccountModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071A5CB424AA531600644010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071A5CBD24AA531600644010 /* KRAccountModuleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		071A5CAF24AA531600644010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 071A5C9124AA531400644010 /* KRAccountModule */;
+			targetProxy = 071A5CAE24AA531600644010 /* PBXContainerItemProxy */;
+		};
+		071A5CBA24AA531600644010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 071A5C9124AA531400644010 /* KRAccountModule */;
+			targetProxy = 071A5CB924AA531600644010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		071A5C9E24AA531400644010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071A5C9F24AA531400644010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		071A5CA324AA531600644010 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071A5CA424AA531600644010 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		071A5CBF24AA531600644010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		071A5CC024AA531600644010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		071A5CC224AA531600644010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B977400B9D5C17EADE7FA5 /* Pods-KRAccountModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRAccountModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRAccountModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		071A5CC324AA531600644010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72AEF3A8A9AEDA76E7F0DB6 /* Pods-KRAccountModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRAccountModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRAccountModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		071A5CC524AA531600644010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRAccountModuleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRAccountModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRAccountModule.app/KRAccountModule";
+			};
+			name = Debug;
+		};
+		071A5CC624AA531600644010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRAccountModuleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRAccountModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRAccountModule.app/KRAccountModule";
+			};
+			name = Release;
+		};
+		071A5CC824AA531600644010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRAccountModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRAccountModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRAccountModule;
+			};
+			name = Debug;
+		};
+		071A5CC924AA531600644010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRAccountModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRAccountModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRAccountModule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071A5C8D24AA531400644010 /* Build configuration list for PBXProject "KRAccountModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071A5CBF24AA531600644010 /* Debug */,
+				071A5CC024AA531600644010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071A5CC124AA531600644010 /* Build configuration list for PBXNativeTarget "KRAccountModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071A5CC224AA531600644010 /* Debug */,
+				071A5CC324AA531600644010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071A5CC424AA531600644010 /* Build configuration list for PBXNativeTarget "KRAccountModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071A5CC524AA531600644010 /* Debug */,
+				071A5CC624AA531600644010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071A5CC724AA531600644010 /* Build configuration list for PBXNativeTarget "KRAccountModuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071A5CC824AA531600644010 /* Debug */,
+				071A5CC924AA531600644010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 071A5C8A24AA531400644010 /* Project object */;
+}
