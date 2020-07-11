@@ -9,6 +9,7 @@
 #import "LoginViewController.h"
 #import <KRBaseComponents/BasicViewController.h>
 #import "LoginTableViewCell.h"
+#import "RegisterViewController.h"
 #import <KRCommonComponents/Macros.h>
 #import <KRCommonComponents/KRNotificationConstant.h>
 #import <KRCommonComponents/ColorTools.h>
@@ -144,7 +145,11 @@
         KRStrongSelf(self);
         [self findMWD];
     };
-    cell.deleagate = self;
+    cell.registerBlock = ^{
+        KRStrongSelf(self);
+        RegisterViewController *vc = [[RegisterViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    };
     return cell;
 }
 

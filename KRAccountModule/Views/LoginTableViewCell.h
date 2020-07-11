@@ -27,8 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) CustomTextField *phoneWindow;
 
 @property (nonatomic,strong) QCheckBox *check;
-@property(nonatomic ,weak) UIViewController *deleagate;
 @property (nonatomic, copy) void(^loginSuccess)(void);
+@property (nonatomic, copy) void(^registerBlock)(void);
 @property (nonatomic, copy) void(^findBlock)(void);
 @end
 

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KRAccountModule"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "账号模块"
 
   # This description is used to generate tags and improve search results.
@@ -114,7 +114,6 @@ Pod::Spec.new do |spec|
   v.dependency 'KRCommonUIComponents', '~> 1.0.1'
   v.dependency 'KRNetworkManager', '~> 1.0.3'
   v.dependency 'KRAccountModule/Models'
-  v.dependency 'KRAccountModule/Controllers'
   end 
   
   spec.subspec 'Models' do |m|

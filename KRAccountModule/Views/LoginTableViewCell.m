@@ -11,7 +11,6 @@
 #import <KRCommonUIComponents/LoginWindowTextField.h>
 #import <KRCommonUIComponents/CustomTextField.h>
 #import <KRCommonUIComponents/JXLRPopTipView.h>
-#import "RegisterViewController.h"
 #import <KRCommonComponents/AppDefaultUtil.h>
 #import <KRCommonComponents/Macros.h>
 //#import ""
@@ -214,8 +213,6 @@
 - (void)regItemClick
 {
     [self hideEnterKeyboard];
-    RegisterViewController *VC = [[RegisterViewController alloc] init];
-    [self.deleagate.navigationController pushViewController:VC animated:YES];
 }
 
 #pragma mark - 点击登录
